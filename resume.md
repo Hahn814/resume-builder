@@ -1,6 +1,9 @@
+
 # Summary
 
 Experienced Software Engineer specializing in scalable, cost-effective solutions. Proficient in Go, Python, Docker, AWS, and cloud-native architectures. Demonstrated success in delivering maintainable, secure, and high-impact software systems. Quick to adapt and master new technologies.
+
+\noindent\rule{\linewidth}{0.4pt}
 
 ## Skills
 
@@ -10,11 +13,15 @@ Experienced Software Engineer specializing in scalable, cost-effective solutions
 - Data: PostgreSQL, Redis, ETL, NLP, Data Analysis
 - Practices: Modular architecture, secure coding, technical documentation, unit testing, agile methodologies, microservices, REST API, containerization, scalability, security
 
+\noindent\rule{\linewidth}{0.4pt}
+
 ## Education
 
 **California University of Pennsylvania**  
 Bachelor of Science in Computer Science, May 2016  
 GPA: 3.37 (Major)
+
+\noindent\rule{\linewidth}{0.4pt}
 
 ## Experience
 
