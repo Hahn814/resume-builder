@@ -55,4 +55,8 @@ When you open the project in VS Code, it will prompt you to reopen in the devcon
   - Provide one-click or shortcut-based PDF generation directly from the editor.
   - Document and maintain these tasks for ease of use and onboarding.
 
+- **Copilot Resume Suggestions:**
+  - Integrate GitHub Copilot to provide AI-powered suggestions for resume improvements directly in VS Code.
+  - Offer actionable feedback and keyword optimization for better ATS and recruiter visibility.
+
 **Contact:** For questions or improvements, reach out via GitHub.
