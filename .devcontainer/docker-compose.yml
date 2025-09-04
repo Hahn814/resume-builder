@@ -1,9 +1,9 @@
 services:
-  app:
+  builder:
+    container_name: resume-builder
     build:
       context: ./../
       dockerfile: ./.devcontainer/Dockerfile
     command: sleep infinity
     volumes:
-      - "./../:/usr/src/app/"
-    
+      - "./../:/usr/src/builder/"

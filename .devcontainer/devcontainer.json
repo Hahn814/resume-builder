@@ -1,8 +1,8 @@
 {
 	"name": "Python 3",
 	"dockerComposeFile": "docker-compose.yml",
-	"service": "app",
-	"workspaceFolder": "/usr/src/app",
+	"service": "builder",
+	"workspaceFolder": "/usr/src/builder",
 	"features": {
 		"ghcr.io/devcontainers/features/docker-in-docker:2.12.2": {},
 		"ghcr.io/devcontainers/features/git:1": {}
@@ -18,7 +18,9 @@
 				"github.vscode-github-actions",
 				"redhat.vscode-yaml",
 				"GitHub.copilot",
-				"GitHub.copilot-chat"
+				"GitHub.copilot-chat",
+				"yzhang.markdown-all-in-one",
+				"DavidAnson.vscode-markdownlint",
 			],
 			"settings": {
 				"github.copilot.chat.commitMessageGeneration.instructions": [

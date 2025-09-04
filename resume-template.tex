@@ -1,0 +1,53 @@
+% Remove page numbers
+\pagestyle{empty}
+\documentclass[9pt,a4paper]{article}
+\usepackage[left=0.25in,right=0.25in,top=0.35in,bottom=0.35in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{fontspec}
+
+\usepackage{xcolor}
+% Use sans-serif font (requires XeLaTeX or LuaLaTeX)
+\renewcommand{\familydefault}{\sfdefault}
+
+\newcommand{\datecolor}[1]{\textcolor{datecolor}{\sffamily #1}}
+
+% Condense section formatting with natural, clean colors
+\definecolor{datecolor}{HTML}{757575} % subtle gray
+\definecolor{headingcolor}{HTML}{37474F} % blue-gray (natural)
+\definecolor{contactcolor}{HTML}{388E3C} % green (natural, clean)
+
+\titleformat{\section}{\normalsize\bfseries\color{headingcolor}}{}{0em}{}
+\titleformat{\subsection}{\small\bfseries\color{headingcolor}}{}{0em}{}
+\setcounter{secnumdepth}{0}
+
+% Custom itemize spacing
+\setlist[itemize]{noitemsep, topsep=0pt, left=0pt, parsep=0pt, partopsep=0pt}
+
+% Header
+\makeatletter
+\def\maketitle{
+  \begin{center}
+    {\large \textbf{\@title}}\\[0.05em]
+    {\color{contactcolor}\@author}
+  \end{center}
+  \vspace{0.1em}
+}
+\title{Paul Hahn}
+\author{
+  Email: \href{mailto:pbhahn@outlook.com}{pbhahn@outlook.com} | GitHub: \href{https://github.com/Hahn814}{github.com/Hahn814} | LinkedIn: \href{https://www.linkedin.com/in/paul-hahn}{linkedin.com/in/paul-hahn}
+}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
+}
+
+\begin{document}
+\pagestyle{empty}
+\maketitle
+
+$body$
+
+\end{document}
